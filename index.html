@@ -6,27 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <link rel="stylesheet" href="blocks/reset.css">
+    <link rel="stylesheet" href="blocks/container.css">
+    <link rel="stylesheet" href="blocks/title.css">
+    <link rel="stylesheet" href="blocks/menu.css">
+    <link rel="stylesheet" href="blocks/search.css">
+    <link rel="stylesheet" href="blocks/header.css">
+
+    
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__top">
-                <img class="logo" src="" alt="">
-                <button class="button">
-                    <img class="button__img" src="" alt="">
+                <img class="logo" src="images/logo/logo__img.png" alt="">
+                <button class="menu__button">
+                    <p class="menu__button-txt">Меню</p>
+                    <img class="menu__img" src="images/menu/menu__button.png" alt="">
+                    
                 </button>
             </div>
             <div class="header__content">
                 <div class="header__left">
-                    <h1 class="title">МЕЖПОСЕЛЕНЧЕСКАЯ ЦЕНТРАЛЬНАЯ БИБЛИОТЕКА КУРАГИНСКОГО РАЙОНА </h1>
-                    <h3 class="subtitle">Муниципальное бюджетное учреждение культуры</h3>
+                    <h1 class="main-title header__title">МЕЖПОСЕЛЕНЧЕСКАЯ ЦЕНТРАЛЬНАЯ БИБЛИОТЕКА КУРАГИНСКОГО РАЙОНА </h1>
+                    <h3 class="subtitle header__subtitle">Муниципальное бюджетное учреждение культуры</h3>
                     <form class="search">
-                        <input type="text" name="text" class="search__field" placeholder="Введите запрос">
+                        <input class="search__field" type="text" name="text" placeholder="Введите запрос">
                         <!-- <input class="search__input" type="submit" name="submit" class="search__button button"> -->
-                            
-                    </input>
                     </form>
                 </div>
+                <div class="header__right">
+                    <img class="header__right-img" src="images/header/header__right-img.png" alt="">
+                </div>
+            </div>
+            <div class="header__decor">
+                <img class="header__arrow" src="images/header/header__arrow.png" alt="">
+                <img class="header__num" src="images/header/header__num.png" alt="">
             </div>
         </div>
     </header>

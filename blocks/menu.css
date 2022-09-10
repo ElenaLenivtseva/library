@@ -1,0 +1,29 @@
+.menu {
+
+}
+.menu__button {
+    width: 9.375rem;
+    height: 3.75rem;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFF;
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.menu__button-txt {
+    font-size: 1.25rem;
+    color: #3A57BB;
+    margin-right: 0.625em;
+}
+.menu__img {
+    /* хз, мб тоже сделать в относительных */
+    width: 40px;
+    height: 40px;
+}

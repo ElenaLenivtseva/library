@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: rgb(8, 10, 102);
+}
+.header__top {
+    z-index: 100;
+    width: 85%;
+    position: fixed;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+}
+.menu {
+}
+.button {
+}
+.menu__img {
+}
+.header__content {
+    display: flex;
+    margin-top: 5rem;
+}
+.header__left {
+}
+.title {
+}
+.header__title {
+    margin-bottom: 1.2em;
+    margin-top: 6em;
+}
+.subtitle {
+}
+.header__subtitle {
+    margin-bottom: 0.86em;
+}
+.search {
+}
+.search__field {
+}
+.header__right {
+}
+.header__right-img {
+    width: 583px;
+}
+.header__decor {
+    display: flex;
+    justify-content: space-between;
+}
+.header__arrow {
+    
+}
+.header__num {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+    height: 4.375rem;
+    padding-top: 7.68rem;
+}
